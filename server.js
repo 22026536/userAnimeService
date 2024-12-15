@@ -3,7 +3,7 @@ import cors from "cors";
 import dotenv from 'dotenv';
 import express, { json } from 'express';
 import mongoose from 'mongoose';
-import routerUserAnime from './src/routes/userAnimeRouter';
+import routerUserAnime from './src/routes/userAnimeRouter.js';
 
 dotenv.config();
 
